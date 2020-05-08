@@ -1,3 +1,2 @@
-flask
-ipykernel
-mysqlclient
+numpy
+mlxtend
