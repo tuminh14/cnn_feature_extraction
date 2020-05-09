@@ -1,0 +1,10 @@
+.idea/
+env
+script.sh
+test/
+.fuse_hidden00007e8600000002
+data/
+data.zip
+
+*/__pycache__
+__pycache__
