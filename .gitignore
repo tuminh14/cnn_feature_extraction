@@ -1,5 +1,5 @@
 .idea/
-env
+env*
 script.sh
 test/
 .fuse_hidden00007e8600000002
