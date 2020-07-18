@@ -1,0 +1,4 @@
+dataId = {
+    "MNIST": "15ftY1DRWL6_EUYgWpHgX4rKva6IFV5w2",
+    "TRUNK": "1_SS46uSLTZLTGA8IDE-qS0W1vY5HIqmZ"
+}
