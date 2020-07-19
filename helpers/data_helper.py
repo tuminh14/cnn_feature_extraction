@@ -5,6 +5,7 @@ from torchvision import datasets, transforms
 from google_drive_downloader import GoogleDriveDownloader as gdd
 import config.GlobalContants as contants
 import numpy as np
+import pickle
 
 class data:
     @staticmethod
@@ -82,6 +83,7 @@ class data:
                 X_test, y_test = iter(test_loader).next()
                 X_val, y_val = iter(val_loader).next()
                 print('Read file compelete')
+                pickle.dump((X_train, y_train, X_test, y_test, X_val, y_val), open('abc.sav', 'wb'))
                 return X_train, y_train, X_test, y_test, X_val, y_val
             except Exception as e:
                 print("Read data error", e)
